@@ -16,6 +16,7 @@ class repos extends base {
 			$this->outputError('指定的记录活动不存在，请检查参数是否正确');
 		}
 
+
 		$dirSchemas = []; // 作为分类的题目
 		$oSchemasById = new \stdClass;
 		foreach ($oApp->dataSchemas as $oSchema) {

@@ -127,6 +127,7 @@ class resumable_model {
 				$total_files++;
 			}
 		}
+		var_dump(111);die;
 		// check that all the parts are present
 		// the size of the last part is between chunkSize and 2*$chunkSize
 		if ($total_files * $chunkSize >= ($totalSize - $chunkSize + 1)) {
